@@ -11,4 +11,6 @@ def test_list_files_is_list():
 
 def test_list_files_check_content():
     # Test if list_files returns the correct files in the current directory
-    assert list_files(FOLDER_TEST) == ["./test_folder/file1.txt", "./test_folder/file2.md"]
+    assert list_files(FOLDER_TEST) == ["./test_folder/file1.txt", 
+                                       "./test_folder/file2.md",
+                                       "./test_folder/sub_folder/file2.txt"]

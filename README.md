@@ -9,3 +9,6 @@ To run the tests for this script, you can use pytest. If you don't have pytest i
 ```bash
 pytest --verbose
 ```
+
+
+python3 main.py test_folder
