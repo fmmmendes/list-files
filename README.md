@@ -12,3 +12,8 @@ pytest --verbose
 
 
 python3 main.py test_folder
+
+## References
+
+https://hatch.pypa.io/latest/
+https://setuptools.pypa.io/en/latest/userguide/entry_point.html
