@@ -16,3 +16,15 @@ def list_files(path):
             res.append(res_path)
     
     return res
+
+
+def save_to_txt(list_of_files):
+    
+    # with open('output.csv', 'w', newline='') as csvfile:
+    #     writer = csv.writer(csvfile)
+        
+    #     for i in list_of_files:
+    #         writer.writerow([i])
+            
+    with open('output.txt', 'w') as f:
+        f.write('\n'.join(list_of_files))
